@@ -1,0 +1,7 @@
+---
+ - name: Create directory
+   hosts: localhost
+   tasks:
+   - name: create directory
+     command: rm -rf /tmp/hai
+...
