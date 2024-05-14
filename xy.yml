@@ -1,6 +1,5 @@
 ---
  - name: Create directory
-   hosts: localhost
    tasks:
    - name: create directory
      command: mkdir /tmp/hai
