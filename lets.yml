@@ -1,0 +1,8 @@
+---
+ - name: Testing whether the yaml file created from one tower to upgradtion works or not
+   hosts: RD
+   tasks:
+   - name: Test bro
+     debug:
+       msg: "Seems like this worked"
+...
